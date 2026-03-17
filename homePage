@@ -3,47 +3,41 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Boston</title>
+  <title>Massachusetts</title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
-  </head>
+</head>
 
-  <body>
-    <nav id="navBar">
-      <a href="home.html">Home</a>
-      <a href="boston.html">Boston</a>
-      <a href="worcester.html">Worcester</a>
-      <a href="cambridge.html">Cambridge</a>
-      <a href="sources.html">Sources</a>
-    </nav>
-    
-    <header class="cityHeader">
-      <h1>Boston</h1>
-    </header>
+<body>
 
-  <main class="pageLayout">
-    <aside class="fenwayAside">
-      <img src="fenwayPark.jpg" alt="Green Fenway Park sign at the entrance.">
-      <h2>Fenway Park</h2>
-      <p class="descriptionFP">
-        Boston is a city that blends the old and the new. The history is reflected in the architecture; Fenway Park is one of the oldest stadiums in the MLB. 
+  <nav id="navBar">
+    <a href="home.html">Home</a>
+    <a href="boston.html">Boston</a>
+    <a href="worcester.html">Worcester</a>
+    <a href="cambridge.html">Cambridge</a>
+    <a href="sources.html">Sources</a>
+  </nav>
+
+  <header class="massTitle">
+    <h1>Massachusetts</h1>
+  </header>
+
+  <main>
+    <aside class="charlesRiver">
+      <img src="charlesRiver.jpg" alt="Skyline of the Charles River">
+      <h2>Charles River</h2>
+      <p class="descriptionCR">
+        Charles River is one of the many rivers located in Massachusetts, it provides a great view of the Boston skyline.
       </p>
     </aside>
-    
-     <section class="bostonSection">
-       <h2>City Facts</h2>
-       <ul class="factsList">
-         <li> <strong>Capital</strong> of Massachusetts. 
-         <li><strong>Incorporated:</strong> 1822.</li>
-         <li><strong>Located:</strong> Eastern Massachusetts.</li> 
-         <li><strong>Population:</strong> 663,972 (2023).</li>
-         <li><strong>Classification:</strong> urban.</li>
-         <li><strong>Average Salary:</strong> About $97,000, which is lower than the state average of $106,000.</li>
-       </ul>
-       <p>Facts are provided by <a href="https://datausa.io/profile/geo/boston-ma" target="_blank" rel="noopener noreferrer">Data USA</a> & <a href="https://www.britannica.com/place/Massachusetts" target="_blank" rel="noopener noreferrer">Britannica</a>.
-       </p>
+
+    <section class="mainP">
+      <p class="coast">
+        Nicknamed the Bay State, Massachusetts, located on the eastern coast, stretches approximately 1,500 miles down the Atlantic coastline, and features over 1,000 ponds, lakes, and rivers spread throughout. Originally part of the thirteen colonies, Massachusetts is surrounded by six New England states and is home to over 7 million people. Due to its location, Massachusetts stays relatively cold throughout the year, with significant snowfall during the winter and summer temperatures in the 70-degree Fahrenheit range. (Tager, 2025)
+      </p>
     </section>
   </main>
 </body>
